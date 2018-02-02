@@ -11,7 +11,7 @@
 namespace AppForms {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

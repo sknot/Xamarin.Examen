@@ -11,7 +11,7 @@
 namespace AppForms {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\LandingPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\LandingPage.xaml")]
     public partial class LandingPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

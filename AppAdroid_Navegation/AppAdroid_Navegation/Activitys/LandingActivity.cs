@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace AppAdroid_Navegation.Activitys
 {
-    [Activity(Label = "LandingActivity", MainLauncher = true)]
+    [Activity(Label = "LandingActivity")]
     public class LandingActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -22,28 +22,35 @@ namespace AppAdroid_Navegation.Activitys
             // Create your application here
             SetContentView(Resource.Layout.LandingLayout);
 
+            Intent intent = this.Intent;
+
             ListView lvLista = (ListView)this.FindViewById(Resource.Id.lvLista);
-            var lista = this.generateDummy(20);
+            var lista = this.GetIListMovies(intent.GetStringExtra("authtoken"));
 
             ListViewAdapter adapter = new ListViewAdapter(lista);
 
             lvLista.Adapter = adapter;
         }
 
-        private IList<Modelo.DatosMovies> generateDummy(int count)
+        private IList<Modelo.DatosMovies> GetIListMovies(string authtoken)
         {
             IList<Modelo.DatosMovies> lista = new List<Modelo.DatosMovies>();
 
-            for (int i = 0; i < count; i = i + 1)
-            {
-                Modelo.DatosMovies movie = new Modelo.DatosMovies();
-
-                movie.title = "Title " + i;
-                movie.category = "Category " + i;
-
-                lista.Add(movie);
-            }
-
+            GetData.GetMovies((datosMovies) => {
+                if (datosMovies != null)
+                {
+                    foreach (var DatoMovie in datosMovies)
+                    {
+                        lista.Add(DatoMovie);
+                    }
+                }
+                else
+                {
+                    Toast.MakeText(this, "No hay datos de peliculas", ToastLength.Short).Show();
+                }
+            }, () => {
+            }, authtoken);
+            
             return lista;
         }
     }

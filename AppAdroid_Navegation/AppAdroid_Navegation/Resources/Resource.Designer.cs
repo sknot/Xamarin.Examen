@@ -44,6 +44,18 @@ namespace AppAdroid_Navegation
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f040005
+			public const int btnLogin = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int btnRegistro = 2130968582;
+			
+			// aapt resource value: 0x7f040004
+			public const int etPassword = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int etUserName = 2130968579;
+			
 			// aapt resource value: 0x7f040002
 			public const int lvLista = 2130968578;
 			

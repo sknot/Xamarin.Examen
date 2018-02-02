@@ -1,5 +1,6 @@
 AppForms
 FormsViewGroup
+Newtonsoft.Json
 System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
@@ -23,8 +24,7 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
 System.ComponentModel
-System.Reflection.Extensions
-Newtonsoft.Json
+System.Xml.ReaderWriter
 System.Resources.ResourceManager
 System.Runtime.Numerics
 System.Xml.XmlDocument
@@ -36,8 +36,8 @@ System.Diagnostics.Debug
 System.Dynamic.Runtime
 System.Runtime.Serialization.Formatters
 System.ObjectModel
-System.Xml.ReaderWriter
 System.Text.Encoding
 System.Threading
+System.Reflection.Extensions
 System.Reflection.Primitives
 System.Text.Encoding.Extensions

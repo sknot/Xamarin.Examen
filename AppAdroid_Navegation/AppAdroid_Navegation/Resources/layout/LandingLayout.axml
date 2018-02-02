@@ -3,13 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-  <TextView
-      android:text="ListView"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:gravity="center" />
-  <ListView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:id="@+id/lvLista" />
+    <TextView
+        android:text="ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvLista" />
 </LinearLayout>

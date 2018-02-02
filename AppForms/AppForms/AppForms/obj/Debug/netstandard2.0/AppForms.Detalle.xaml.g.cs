@@ -11,7 +11,7 @@
 namespace AppForms {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\Detalle.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\Detalle.xaml")]
     public partial class Detalle : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

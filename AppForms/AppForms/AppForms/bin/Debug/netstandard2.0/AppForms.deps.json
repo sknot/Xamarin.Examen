@@ -11,7 +11,8 @@
         "dependencies": {
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "10.0.3",
-          "Xamarin.Forms": "2.5.0.122203"
+          "Xamarin.Forms": "2.5.0.122203",
+          "Xamarin.iOS": "0.0.0.0"
         },
         "runtime": {
           "AppForms.dll": {}
@@ -481,6 +482,11 @@
           "lib/netstandard1.0/Xamarin.Forms.Platform.dll": {},
           "lib/netstandard1.0/Xamarin.Forms.Xaml.dll": {}
         }
+      },
+      "Xamarin.iOS/0.0.0.0": {
+        "runtime": {
+          "Xamarin.iOS.dll": {}
+        }
       }
     }
   },
@@ -797,6 +803,11 @@
       "sha512": "sha512-qg7A2IXbVV/5u9qqeiDhRMwpVEsbWKBxzeAtD0rTuntmaDB1Z7WuBg5IK2VBklJbKe2Ps8V9zBfEwgJIqPVJUw==",
       "path": "xamarin.forms/2.5.0.122203",
       "hashPath": "xamarin.forms.2.5.0.122203.nupkg.sha512"
+    },
+    "Xamarin.iOS/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
