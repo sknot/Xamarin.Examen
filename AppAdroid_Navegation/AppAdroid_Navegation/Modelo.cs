@@ -50,7 +50,7 @@ namespace AppAdroid_Navegation
             public string mail { get; set; }
         }
 
-        public class DatosMovies
+        public class DatosMovies : Java.Lang.Object
         {
             public String _id { get; set; }
             public String title { get; set; }

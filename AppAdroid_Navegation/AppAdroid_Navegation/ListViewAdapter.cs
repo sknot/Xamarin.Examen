@@ -15,64 +15,50 @@ namespace AppAdroid_Navegation
     class ListViewAdapter : BaseAdapter
     {
 
-        Context context;
+        private IList<Modelo.DatosMovies> movies;
 
-        public ListViewAdapter(Context context)
+        public ListViewAdapter(IList<Modelo.DatosMovies> movies)
         {
-            this.context = context;
+            this.movies = movies;
         }
-
 
         public override Java.Lang.Object GetItem(int position)
         {
-            return position;
+            return this.movies[position];
         }
 
         public override long GetItemId(int position)
         {
-            return position;
+            return this.GetItem(position).GetHashCode();
         }
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            var view = convertView;
-            ListViewAdapterViewHolder holder = null;
-
-            if (view != null)
-                holder = view.Tag as ListViewAdapterViewHolder;
-
-            if (holder == null)
+            if (convertView == null)
             {
-                holder = new ListViewAdapterViewHolder();
-                var inflater = context.GetSystemService(Context.LayoutInflaterService).JavaCast<LayoutInflater>();
-                //replace with your item and your holder items
-                //comment back in
-                //view = inflater.Inflate(Resource.Layout.item, parent, false);
-                //holder.Title = view.FindViewById<TextView>(Resource.Id.text);
-                view.Tag = holder;
+                var inflater = LayoutInflater.From(parent.Context);
+
+                convertView = inflater.Inflate(Resource.Layout.ItemLayout, parent, false);
             }
 
+            Modelo.DatosMovies movie = (Modelo.DatosMovies)this.GetItem(position);
 
-            //fill in your items
-            //holder.Title.Text = "new text here";
+            TextView tvTitle = (TextView)convertView.FindViewById(Resource.Id.tvTitle);
+            TextView tvCategory = (TextView)convertView.FindViewById(Resource.Id.tvCategory);
 
-            return view;
+            tvTitle.Text = movie.title;
+            tvCategory.Text = movie.category;
+
+            return convertView;
         }
 
-        //Fill in cound here, currently 0
         public override int Count
         {
             get
             {
-                return 0;
+                return this.movies.Count;
             }
         }
 
-    }
-
-    class ListViewAdapterViewHolder : Java.Lang.Object
-    {
-        //Your adapter views to re-use
-        //public TextView Title { get; set; }
     }
 }

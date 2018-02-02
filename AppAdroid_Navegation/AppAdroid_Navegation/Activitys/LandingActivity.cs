@@ -22,9 +22,29 @@ namespace AppAdroid_Navegation.Activitys
             // Create your application here
             SetContentView(Resource.Layout.LandingLayout);
 
-            ListView lista = (ListView)this.FindViewById(Resource.Id.lvLista);
+            ListView lvLista = (ListView)this.FindViewById(Resource.Id.lvLista);
+            var lista = this.generateDummy(20);
+
             ListViewAdapter adapter = new ListViewAdapter(lista);
 
+            lvLista.Adapter = adapter;
+        }
+
+        private IList<Modelo.DatosMovies> generateDummy(int count)
+        {
+            IList<Modelo.DatosMovies> lista = new List<Modelo.DatosMovies>();
+
+            for (int i = 0; i < count; i = i + 1)
+            {
+                Modelo.DatosMovies movie = new Modelo.DatosMovies();
+
+                movie.title = "Title " + i;
+                movie.category = "Category " + i;
+
+                lista.Add(movie);
+            }
+
+            return lista;
         }
     }
 }
