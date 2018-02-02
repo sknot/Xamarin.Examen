@@ -5753,11 +5753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms.iOS\\AppForms.iOS.csproj",
+      "projectUniqueName": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms.iOS\\AppForms.iOS.csproj",
       "projectName": "AppForms.iOS",
-      "projectPath": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms.iOS\\AppForms.iOS.csproj",
+      "projectPath": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms.iOS\\AppForms.iOS.csproj",
       "packagesPath": "C:\\Users\\Victor Perez\\.nuget\\packages\\",
-      "outputPath": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms.iOS\\obj\\",
+      "outputPath": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -5774,8 +5774,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\AppForms.csproj": {
-              "projectPath": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\AppForms.csproj"
+            "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\AppForms.csproj": {
+              "projectPath": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\AppForms.csproj"
             }
           }
         }

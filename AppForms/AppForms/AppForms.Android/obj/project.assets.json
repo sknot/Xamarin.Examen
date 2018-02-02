@@ -4155,11 +4155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms.Android\\AppForms.Android.csproj",
+      "projectUniqueName": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms.Android\\AppForms.Android.csproj",
       "projectName": "AppForms.Android",
-      "projectPath": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms.Android\\AppForms.Android.csproj",
+      "projectPath": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms.Android\\AppForms.Android.csproj",
       "packagesPath": "C:\\Users\\Victor Perez\\.nuget\\packages\\",
-      "outputPath": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms.Android\\obj\\",
+      "outputPath": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -4176,8 +4176,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\AppForms.csproj": {
-              "projectPath": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\AppForms.csproj"
+            "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\AppForms.csproj": {
+              "projectPath": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\AppForms.csproj"
             }
           }
         }

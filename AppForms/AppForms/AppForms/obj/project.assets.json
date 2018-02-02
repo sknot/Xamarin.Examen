@@ -3297,11 +3297,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\AppForms.csproj",
+      "projectUniqueName": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\AppForms.csproj",
       "projectName": "AppForms",
-      "projectPath": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\AppForms.csproj",
+      "projectPath": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\AppForms.csproj",
       "packagesPath": "C:\\Users\\Victor Perez\\.nuget\\packages\\",
-      "outputPath": "E:\\DATA\\Tfs\\Xamarin.Exmaen\\AppForms\\AppForms\\AppForms\\obj\\",
+      "outputPath": "E:\\DATA\\Tfs\\Xamarin.Examen\\AppForms\\AppForms\\AppForms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
