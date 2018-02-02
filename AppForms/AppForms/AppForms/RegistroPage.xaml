@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppForms.RegistroPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label x:Name="lblRegistro"
+            Text="Registro" 
+            HorizontalTextAlignment="Center"
+            FontSize="50" />
+
+            <Entry 
+            x:Name="eNombre"
+            Placeholder="Nombre:"/>
+
+            <Entry 
+            x:Name="eNombreUsuario"
+            Placeholder="Nombre de Usuario:"/>
+
+            <Entry 
+            x:Name="eTelefono"
+            Placeholder="Télefono:"
+            Keyboard="Numeric"/>
+
+            <Entry 
+            x:Name="eEmail"
+            Placeholder="Email:"
+            Keyboard="Email"/>
+
+            <Entry 
+            x:Name="ePassword"
+            Placeholder="Password:"
+            IsPassword="True"/>
+
+            <Entry 
+            x:Name="eConfirmarPassword"
+            Placeholder="Confirmar Password:"
+            IsPassword="True"/>
+
+            <Button x:Name="btnRegistrar"
+            Text="Registrar"
+            BackgroundColor="#c61f1f"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

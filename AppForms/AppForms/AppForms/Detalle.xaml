@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppForms.Detalle"
+             BackgroundColor="#f4efef">
+    <ContentPage.Content>
+        <StackLayout
+        Padding="20">
+
+            <Label
+                x:Name="lblTitulo"
+            BackgroundColor="Gray"
+            TextColor="White"
+            Text="Películas" 
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            FontSize="20" HeightRequest="40"/>
+
+            <Label
+                x:Name="lblDescripcion"
+            BackgroundColor="Gray"
+            TextColor="White"
+            Text="Descripción" 
+            HorizontalTextAlignment="Start"
+            FontSize="15" HeightRequest="100"/>
+
+            <Label
+                x:Name="lblCategoria"
+            BackgroundColor="Gray"
+            TextColor="White"
+            Text="Categoria: Drama" 
+            HorizontalTextAlignment="Start"
+            FontSize="15" HeightRequest="50"/>
+
+            <Label
+                x:Name="lblRating"
+            BackgroundColor="Gray"
+            TextColor="White"
+            Text="Rating: 4" 
+            HorizontalTextAlignment="Start"
+            FontSize="15" HeightRequest="50"/>
+
+            <Image
+                x:Name="imgPelicula"
+            BackgroundColor="Gray"
+            HeightRequest="250"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
